@@ -1,0 +1,23 @@
+
+.board-container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .board-placeholder {
+    width: 350px;
+    height: 350px;
+    border:7px dashed #bbbbbb;
+    border-radius: 25px;
+  }
+
+  .grid-hint {
+    line-height: 350px;
+    text-align: center;
+  }
+}
+
+.restart {
+  text-align: center;
+}
